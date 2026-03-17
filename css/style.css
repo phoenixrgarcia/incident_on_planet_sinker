@@ -15,6 +15,7 @@
     --text-muted: #8a8a9e;
     --border-glow: rgba(0, 255, 136, 0.3);
     --border-danger: rgba(255, 23, 68, 0.3);
+    --bs-secondary-color: #8f8f8f;
 }
 
 * {
@@ -70,13 +71,14 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .brand-title {
-    font-size: 1.5rem;
-    letter-spacing: 2px;
+    font-size: 1.1rem;
+    letter-spacing: 1.5px;
     text-transform: uppercase;
     color: var(--primary-neon);
     text-shadow: 0 0 10px var(--primary-neon);
     font-weight: 900;
     text-align: right;
+    word-spacing: 3px;
 }
 
 .section-title {
@@ -155,7 +157,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .card-body {
-    padding: 2rem;
+    padding: 50px;
 }
 
 /* ==========================================
@@ -336,12 +338,12 @@ a:hover {
 }
 
 /* ==========================================
-   CHARACTERS GRID
+   CHARACTERS LIST
    ========================================== */
 
-.characters-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+.characters-list {
+    display: flex;
+    flex-direction: column;
     gap: 2rem;
     margin-bottom: 3rem;
 }
@@ -402,8 +404,8 @@ a:hover {
         margin: 0.5rem 0;
     }
 
-    .characters-grid {
-        grid-template-columns: 1fr;
+    .characters-list .card-body {
+        padding: 2rem;
     }
 
     .container {
