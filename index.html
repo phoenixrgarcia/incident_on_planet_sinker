@@ -9,7 +9,7 @@
     <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.15.8/dist/cdn.min.js"></script>
 </head>
 
-<body  x-data x-init="$store.auth.init()" class="dark-bg">
+<body  x-data x-init="$store.auth.init()" class="dark-bg theme-home">
     <!-- Navigation -->
     <nav class="navbar navbar-dark navbar-expand-lg mb-5">
         <div class="container-fluid">
@@ -22,7 +22,7 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item">
-                        <a class="nav-link" href="index.html">Home</a>
+                        <a class="nav-link" style="color: var(--primary-neon) !important;" href="index.html">Home</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="rules.html">Rules</a>
@@ -58,15 +58,15 @@
                             <select id="characterSelect" x-model="selectedCharacterId"
                                 class="form-select dark-select" :disabled="$store.auth.loggedIn">
                                 <option value="">-- Select a Character --</option>
-                                <option value="captain"> Captain Vex Donovan</option>
-                                <option value="engineer"> Kess Morgan</option>
-                                <option value="medic">Dr. Atlas Kane</option>
+                                <template x-for="character in characters" :key="character.id">
+                                    <option :value="character.id" x-text="character.name"></option>
+                                </template>
                             </select>
                         </div>
                         <label for="characterPassword" class="form-label"> > Password:</label>
                         <input id="characterPassword" x-model="selectedCharacterPassword"
                             class="form-control dark-select" 
-                            placeholder="-- Enter private password --" :disabled="!selectedCharacterId">
+                            placeholder="-- Enter password --" :disabled="!selectedCharacterId">
 
                     </div>
 

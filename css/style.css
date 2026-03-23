@@ -18,6 +18,22 @@
     --bs-secondary-color: #8f8f8f;
 }
 
+.theme-home{
+    --primary-neon: #00ff88;
+    --secondary-neon: #FF0060;
+    --btn-neon: 
+}
+
+.theme-rules{
+    --primary-neon: #00f7ff;
+    --secondary-neon: #ff0087;
+}
+
+.theme-characters{
+    --primary-neon: #A555EC;
+    --secondary-neon: #F3CCFF;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -223,12 +239,12 @@ h1, h2, h3, h4, h5, h6 {
     letter-spacing: 2px;
     padding: 0.75rem 2rem;
     transition: all 0.3s ease;
-    box-shadow: 0 0 20px rgba(0, 255, 136, 0.4);
+    box-shadow: 0 0 20px rgb(from var(--primary-neon) r g b / 0.5);
 }
 
 .btn-neon:hover {
     transform: scale(1.05);
-    box-shadow: 0 0 40px rgba(0, 255, 136, 0.7), 0 0 60px rgba(255, 0, 128, 0.5);
+    box-shadow: 0 0 40px rgb(from var(--primary-neon) r g b / 0.7), 0 0 60px rgb(from var(--secondary-neon) r g b / 0.5);
     color: var(--darker-bg);
 }
 
