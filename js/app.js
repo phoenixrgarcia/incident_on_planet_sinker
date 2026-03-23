@@ -35,9 +35,11 @@ function createAuthStore(){
   return{
     character: null,
     characters: CHARACTERS,
+    showLogoutConfirm: false,
 
     init() {
       const storedCharacter = localStorage.getItem("loggedInCharacter");
+      this.showLogoutConfirm = false;
       if(storedCharacter) {
         this.character = JSON.parse(storedCharacter);
       }
@@ -66,7 +68,16 @@ function createAuthStore(){
       alert(`Login successful! Welcome, ${character.name}.`);
     },
 
+    requestLogout() {
+      this.showLogoutConfirm = true;
+    },
+
+    cancelLogout() {
+      this.showLogoutConfirm = false;
+    },
+
     logout() {
+      this.showLogoutConfirm = false;
       localStorage.removeItem("loggedInCharacter");
       this.character = null;
       alert("Another life lost on Planet Sinker. Better luck next time.");
