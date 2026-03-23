@@ -1,6 +1,3 @@
-const Alpine = require("alpinejs");
-const { store } = require("alpinejs");
-
 const CHARACTERS = {
     captain: {
         name: "Captain Vex Donovan",
@@ -51,21 +48,22 @@ function createAuthStore(){
       return !!this.character;
     },
 
-    attemptLogin(characterId, password) {
-      if(!characterId || !password) {
+     attemptLogin(characterId, password) {
+      if (!characterId || !password) {
         alert("Please select a character and enter a password.");
         return;
       }
 
-      if(this.characters[characterId] && this.characters[characterId].password != password) {
+      const character = this.characters[characterId];
+
+      if (!character || character.password !== password) {
         alert("Access denied. Incorrect password.");
+        return;
       }
 
-      if(this.characters[characterId] && this.characters[characterId].password === password) {
-        this.character = this.characters[characterId];
-        localStorage.setItem("loggedInCharacter", JSON.stringify(this.character));
-        alert(`Login successful! Welcome, ${this.character.name}.`);
-      }
+      this.character = character;
+      localStorage.setItem("loggedInCharacter", JSON.stringify(character));
+      alert(`Login successful! Welcome, ${character.name}.`);
     },
 
     logout() {
@@ -77,42 +75,33 @@ function createAuthStore(){
   }
 }
 
-// Character data for the selection dropdown
 function characterSelector() {
   return {
     selectedCharacterId: "",
-    selectedCharacter: null,
     selectedCharacterPassword: "",
 
-    characters: CHARACTERS,
+    get selectedCharacter() {
+      return CHARACTERS[this.selectedCharacterId] || null;
+    },
 
     init() {
       const stored = localStorage.getItem("loggedInCharacter");
 
       if (stored) {
-        this.selectedCharacterId = this.selectedCharacter.id;
-      }
-    },
-
-    selectCharacter(){
-      if(this.selectedCharacterId) {
-        this.selectedCharacter = this.characters[this.selectedCharacterId];
-      } else {
-        this.selectedCharacter = null;
+        const character = JSON.parse(stored);
+        this.selectedCharacterId = character.id;
       }
     },
 
     loginOnClick() {
-      if (!this.selectedCharacter || !this.selectedCharacterPassword) {
-        alert("Please select a character and enter a password.");
-        return;
-      }
-
-      this.$store.auth.attemptLogin(this.selectedCharacterId, this.selectedCharacterPassword);
-      
+      this.$store.auth.attemptLogin(
+        this.selectedCharacterId,
+        this.selectedCharacterPassword
+      );
     },
   };
 }
+
 
 // Characters display for the characters page
 function charactersDisplay() {
@@ -120,9 +109,3 @@ function charactersDisplay() {
     characters: CHARACTERS
   };
 }
-
-// Add any additional global functionality here
-document.addEventListener("DOMContentLoaded", () => {
-  console.log("Murder in the Void - Initialization Complete");
-});
-
