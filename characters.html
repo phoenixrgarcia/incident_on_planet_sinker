@@ -49,17 +49,44 @@
 
                 <!-- Character Cards List -->
                 <div x-data="charactersDisplay()" class="characters-list">
-                    <template x-for="character in characters" :key="character.id">
-                        <div class="card dark-card border-glow character-card">
-                            <div class="card-body">
-                                <h2 class="card-title character-role" x-text="character.id.replaceAll('_', ' ').toUpperCase()"></h2>
-                                <h3 class="character-name mb-2" x-text="character.name"></h3>
-                                <p class="text-muted mb-3">
-                                    <small>Played by: <strong x-text="character.player"></strong></small>
-                                </p>
-                                <p class="character-blurb" x-text="character.blurb"></p>
+                    <template x-for="faction in factions" :key="faction.id">
+                        <section class="faction-section dark-card border-glow">
+                            <button
+                                type="button"
+                                class="faction-toggle"
+                                @click="toggleFaction(faction.id)"
+                                :aria-expanded="openFactions[faction.id]"
+                                :aria-controls="`faction-panel-${faction.id}`"
+                            >
+                                <div>
+                                    <h2 class="faction-title mb-0" x-text="faction.name"></h2>
+                                </div>
+                                <div class="faction-meta">
+                                    <span class="faction-count" x-text="`${faction.characters.length} characters`"></span>
+                                    <span class="faction-chevron" :class="{ 'is-open': openFactions[faction.id] }">+</span>
+                                </div>
+                            </button>
+
+                            <div
+                                x-show="openFactions[faction.id]"
+                                x-transition.opacity.duration.250ms
+                                :id="`faction-panel-${faction.id}`"
+                                class="faction-panel"
+                            >
+                                <template x-for="character in faction.characters" :key="character.id">
+                                    <div class="card dark-card border-glow character-card">
+                                        <div class="card-body">
+                                            <h2 class="card-title character-role" x-text="character.id.replaceAll('_', ' ').toUpperCase()"></h2>
+                                            <h3 class="character-name mb-2" x-text="character.name"></h3>
+                                            <p class="text-muted mb-3">
+                                                <small>Played by: <strong x-text="character.player"></strong></small>
+                                            </p>
+                                            <p class="character-blurb" x-text="character.blurb"></p>
+                                        </div>
+                                    </div>
+                                </template>
                             </div>
-                        </div>
+                        </section>
                     </template>
                 </div>
 

@@ -353,7 +353,20 @@ function characterSelector() {
 
 // Characters display for the characters page
 function charactersDisplay() {
+  const characters = Object.values(CHARACTERS);
+  const factionNames = [...new Set(characters.map((character) => character.faction))];
+  const factions = factionNames.map((factionName) => ({
+    id: factionName.toLowerCase().replaceAll(" ", "-"),
+    name: factionName,
+    characters: characters.filter((character) => character.faction === factionName)
+  }));
+
   return {
-    characters: Object.values(CHARACTERS)
-  }
+    factions,
+    openFactions: Object.fromEntries(factions.map((faction) => [faction.id, false])),
+
+    toggleFaction(factionId) {
+      this.openFactions[factionId] = !this.openFactions[factionId];
+    }
+  };
 }

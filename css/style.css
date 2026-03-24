@@ -367,6 +367,70 @@ a:hover {
     margin-bottom: 3rem;
 }
 
+.faction-section {
+    overflow: hidden;
+}
+
+.faction-toggle {
+    width: 100%;
+    background: linear-gradient(90deg, rgba(165, 85, 236, 0.15), rgba(243, 204, 255, 0.08));
+    border: 0;
+    color: inherit;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1.5rem;
+    padding: 1.5rem 2rem;
+    text-align: left;
+}
+
+.faction-toggle:hover {
+    background: linear-gradient(90deg, rgba(165, 85, 236, 0.24), rgba(243, 204, 255, 0.12));
+}
+
+.faction-kicker {
+    color: var(--text-muted);
+    font-size: 0.75rem;
+    letter-spacing: 0.3rem;
+    text-transform: uppercase;
+}
+
+.faction-title {
+    color: var(--primary-neon);
+    font-size: 1.75rem;
+    text-transform: uppercase;
+    letter-spacing: 0.12rem;
+}
+
+.faction-meta {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    flex-shrink: 0;
+}
+
+.faction-count {
+    color: var(--secondary-neon);
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+}
+
+.faction-chevron {
+    color: var(--primary-neon);
+    font-size: 2rem;
+    line-height: 1;
+    transition: transform 0.3s ease;
+}
+
+.faction-chevron.is-open {
+    transform: rotate(45deg);
+}
+
+.faction-panel {
+    padding: 0 1.5rem 1.5rem;
+}
+
 /* ==========================================
    FOOTER
    ========================================== */
@@ -425,6 +489,21 @@ a:hover {
 
     .characters-list .card-body {
         padding: 2rem;
+    }
+
+    .faction-toggle {
+        align-items: flex-start;
+        flex-direction: column;
+        padding: 1.25rem 1.5rem;
+    }
+
+    .faction-meta {
+        width: 100%;
+        justify-content: space-between;
+    }
+
+    .faction-panel {
+        padding: 0 1rem 1rem;
     }
 
     .container {
