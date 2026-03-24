@@ -1,10 +1,10 @@
-# Murder in the Void 🚀⚡
+# Incident on Planet Sinker 
 
 A space western murder mystery party website built with Bootstrap and Alpine.js.
 
 ## Project Overview
 
-This is a companion website for an interactive murder mystery party game set in a dystopian space western universe. Players assume character roles and investigate clues to solve a murder aboard the research vessel *Void Wanderer*.
+This is a companion website for an interactive murder mystery party game set in a dystopian space western universe. Players assume character roles and investigate clues to solve a murder on Planet Sinker
 
 ## Features
 
@@ -18,7 +18,7 @@ This is a companion website for an interactive murder mystery party game set in 
 ## Project Structure
 
 ```
-murder_site/
+incident_on_planet_sinker/
 ├── index.html              # Landing page with character selection
 ├── rules.html              # Game rules and how-to-play
 ├── characters.html         # Full character profiles
@@ -118,5 +118,5 @@ All content is your own. Feel free to modify and redistribute as needed.
 
 ---
 
-**Created for: Murder in the Void - A Space Western Mystery**  
+**Created for: Incident On Planet Sinker - A Space Western Mystery**  
 *2026*
