@@ -21,17 +21,19 @@
 .theme-home{
     --primary-neon: #00ff88;
     --secondary-neon: #FF0060;
-    --btn-neon: 
+    --border-glow: rgb(from var(--primary-neon) r g b / 0.3)
 }
 
 .theme-rules{
     --primary-neon: #00f7ff;
     --secondary-neon: #ff0087;
+    --border-glow: rgb(from var(--primary-neon) r g b / 0.3)
 }
 
 .theme-characters{
     --primary-neon: #A555EC;
     --secondary-neon: #F3CCFF;
+    --border-glow: rgb(from var(--primary-neon) r g b / 0.3)
 }
 
 * {
@@ -66,7 +68,8 @@ html {
 
 h1, h2, h3, h4, h5, h6 {
     font-weight: bold;
-    text-shadow: 0 0 10px rgba(0, 255, 136, 0.3);
+    text-shadow: 0 0 10px rgb(from var(--primary-neon) r g b / 0.3)
+;
 }
 
 .dramatic-title {
@@ -75,7 +78,7 @@ h1, h2, h3, h4, h5, h6 {
     color: var(--primary-neon);
     text-transform: uppercase;
     font-weight: 900;
-    text-shadow: 0 0 20px var(--primary-neon), 0 0 40px rgba(0, 255, 136, 0.5);
+    text-shadow: 0 0 20px var(--primary-neon), 0 0 40px rgb(from var(--primary-neon) r g b / 0.5);
     margin-bottom: 1rem;
 }
 
@@ -152,12 +155,12 @@ h1, h2, h3, h4, h5, h6 {
 .dark-card {
     background-color: var(--card-bg) !important;
     border: 1px solid var(--border-glow) !important;
-    box-shadow: 0 8px 32px rgba(0, 255, 136, 0.1);
+    box-shadow: 0 8px 32px rgb(from var(--primary-neon) r g b / 0.1);
     transition: all 0.3s ease;
 }
 
 .dark-card:hover {
-    box-shadow: 0 12px 48px rgba(0, 255, 136, 0.2);
+    box-shadow: 0 12px 48px rgb(from var(--primary-neon) r g b / 0.2);
     border-color: var(--primary-neon) !important;
 }
 
@@ -202,7 +205,7 @@ h1, h2, h3, h4, h5, h6 {
     background-color: var(--card-bg) !important;
     color: var(--text-primary) !important;
     border-color: var(--primary-neon) !important;
-    box-shadow: 0 0 15px rgba(0, 255, 136, 0.5);
+    box-shadow: 0 0 15px rgb(from var(--primary-neon) r g b / 0.5);
 }
 
 .dark-select option {
@@ -223,7 +226,7 @@ h1, h2, h3, h4, h5, h6 {
     background-color: var(--card-bg);
     color: var(--text-primary);
     border-color: var(--primary-neon);
-    box-shadow: 0 0 15px rgba(0, 255, 136, 0.5);
+    box-shadow: 0 0 15px rgb(from var(--primary-neon) r g b / 0.5);
 }
 
 /* ==========================================
