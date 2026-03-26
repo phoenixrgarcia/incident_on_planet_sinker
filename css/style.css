@@ -36,6 +36,12 @@
     --border-glow: rgb(from var(--primary-neon) r g b / 0.3)
 }
 
+.theme-lore{
+     --primary-neon: #FAEF5D;
+    --secondary-neon: #7E2553;
+    --border-glow: rgb(from var(--primary-neon) r g b / 0.3)
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -418,10 +424,10 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .rule-list li:before {
-    content: "⚡";
+    content: "●";
     position: absolute;
     left: 0;
-    color: var(--primary-neon);
+    color: var(--secondary-neon);
 }
 
 section {
