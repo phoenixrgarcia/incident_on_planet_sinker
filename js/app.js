@@ -4,7 +4,7 @@ const CHARACTERS = {
     id: "bartender",
     player: "Noah",
     blurb: "Local bartender",
-    password: "n101",
+    password: "1991",
     faction: "Locals",
     image: "default.png"
   },
@@ -13,7 +13,7 @@ const CHARACTERS = {
     id: "dentist",
     player: "Nate R.",
     blurb: "Gambling town dentist",
-    password: "n201",
+    password: "2007",
     faction: "Locals",
     image: "default.png"
   },
@@ -22,7 +22,7 @@ const CHARACTERS = {
     id: "saloon_musician",
     player: "Nate J.",
     blurb: "Young instrumentalist",
-    password: "n301",
+    password: "1994",
     faction: "Locals",
     image: "default.png"
   },
@@ -31,7 +31,7 @@ const CHARACTERS = {
     id: "blacksmith",
     player: "Carter",
     blurb: "Local blacksmith",
-    password: "c101",
+    password: "1939",
     faction: "Locals",
     image: "default.png"
   },
@@ -40,7 +40,7 @@ const CHARACTERS = {
     id: "sheriff",
     player: "Lizzy",
     blurb: "Reliable town sheriff",
-    password: "l101",
+    password: "1903",
     faction: "Locals",
     image: "default.png"
   },
@@ -49,7 +49,7 @@ const CHARACTERS = {
     id: "deputy",
     player: "Chase",
     blurb: "Notorious Bounty Hunter turned Deputy",
-    password: "c201",
+    password: "1987",
     faction: "Locals",
     image: "default.png"
   },
@@ -58,43 +58,52 @@ const CHARACTERS = {
     id: "undertaker",
     player: "Jesus",
     blurb: "Reclusive Undertaker",
-    password: "j101",
-    faction: "Locals",
-    image: "default.png"
-  },
-  mercenary: {
-    name: "LeRoy Cassidy",
-    id: "mercenary",
-    player: "Brody",
-    blurb: "Hand for hire",
-    password: "b101",
-    faction: "Locals",
-    image: "default.png"
-  },
-  doctor: {
-    name: "Dr. Maddie Starr",
-    id: "doctor",
-    player: "Nainika",
-    blurb: "Trusted Town Doctor",
-    password: "n401",
+    password: "1564",
     faction: "Locals",
     image: "default.png"
   },
   saloon_hand: {
-    name: "Lillian Bell",
+    name: "LeRoy Cassidy",
     id: "saloon_hand",
-    player: "Ava",
-    blurb: "Local saloon hand",
-    password: "a101",
+    player: "Brody",
+    blurb: "Hand for hire",
+    password: "1859",
     faction: "Locals",
     image: "default.png"
   },
-  assistant: {
-    name: "Willy the Child",
-    id: "assistant",
+  surgeon: {
+    name: "Dr. Maddie Stark",
+    id: "surgeon",
+    player: "Nainika",
+    blurb: "Trusted Town Doctor",
+    password: "1852",
+    faction: "Locals",
+    image: "default.png"
+  },
+  saloon_chef: {
+    name: "Lillian Bell",
+    id: "saloon_chef",
+    player: "Ava",
+    blurb: "Local saloon hand",
+    password: "2004",
+    faction: "Locals",
+    image: "default.png"
+  },
+  mayors_assistant: {
+    name: "Willy the Silly",
+    id: "mayors_assistant",
     player: "Jade",
     blurb: "Young mayor's assistant",
-    password: "j201",
+    password: "0080",
+    faction: "Locals",
+    image: "default.png"
+  },
+  retired_cowboy:{
+    name: "Jet",
+    id: "retired_cowboy",
+    player: "Melina",
+    blurb: "Retired Cowboy",
+    password: "2020",
     faction: "Locals",
     image: "default.png"
   },
@@ -103,26 +112,17 @@ const CHARACTERS = {
     id: "businessman",
     player: "EXTRA",
     blurb: "Owner of Mattress Firm",
-    password: "t101",
-    faction: "Locals",
+    password: "2012",
+    faction: "Out-of-Towners",
     image: "default.png"
   },
-  drunkard: {
+  traveling_performer: {
     name: "Blues McGee",
-    id: "drunkard",
+    id: "traveling_performer",
     player: "EXTRA",
-    blurb: "Drunkard from Albath",
-    password: "b201",
-    faction: "Locals",
-    image: "default.png"
-  },
-  space_cowboy: {
-    name: "Jet",
-    id: "space_cowboy",
-    player: "EXTRA",
-    blurb: "Retired Cowboy",
-    password: "j301",
-    faction: "Locals",
+    blurb: "Wanderer from Highhome",
+    password: "1860",
+    faction: "Out-of-Towners",
     image: "default.png"
   },
   farmer: {
@@ -130,8 +130,8 @@ const CHARACTERS = {
     id: "farmer",
     player: "EXTRA",
     blurb: "Blueberry Farmer",
-    password: "l201",
-    faction: "Locals",
+    password: "1986",
+    faction: "Out-of-Towners",
     image: "default.png"
   },
   journalist: {
@@ -139,25 +139,25 @@ const CHARACTERS = {
     id: "journalist",
     player: "CJ",
     blurb: "Amnesiac Journalist?",
-    password: "c301",
-    faction: "Out-of-Towners",
+    password: "2001",
+    faction: "Locals",
     image: "default.png"
   },
-  saleswoman: {
+  doctor: {
     name: "Lucille Canott",
-    id: "saleswoman",
+    id: "doctor",
     player: "Sam",
-    blurb: "Ever young snake-oil saleswoman",
-    password: "s101",
+    blurb: "Snake-oil saleswoman",
+    password: "0040",
     faction: "Out-of-Towners",
     image: "default.png"
   },
-  salesman: {
+  health_practitioner: {
     name: "Simón de Cuca",
-    id: "salesman",
+    id: "health_practitioner",
     player: "Phoenix",
-    blurb: "Ever young snake-oil salesman",
-    password: "p101",
+    blurb: "Snake-oil salesman",
+    password: "1485",
     faction: "Out-of-Towners",
     image: "default.png"
   },
@@ -166,7 +166,7 @@ const CHARACTERS = {
     id: "demolitionist",
     player: "Kayla",
     blurb: "Ne'er-do-well demolitionist drifter",
-    password: "k101",
+    password: "0020",
     faction: "Out-of-Towners",
     image: "default.png"
   },
@@ -175,8 +175,8 @@ const CHARACTERS = {
     id: "cowboy",
     player: "Matt",
     blurb: "Scruffy notorious cowboy",
-    password: "m101",
-    faction: "Out-of-Towners",
+    password: "1001",
+    faction: "Locals",
     image: "default.png"
   },
   reporter: {
@@ -184,7 +184,25 @@ const CHARACTERS = {
     id: "reporter",
     player: "CC",
     blurb: "Young investigative journalist",
-    password: "c401",
+    password: "0303",
+    faction: "Out-of-Towners",
+    image: "default.png"
+  },
+  drunkard: {
+    name: "Mabee D. King",
+    id: "drunkard",
+    player: "Jen",
+    blurb: "Wanderer",
+    password: "4040",
+    faction: "Out-of-Towners",
+    image: "default.png"
+  },
+  saloon_singer: {
+    name: "Brilliant Brian Burpe",
+    id: "saloon_singer",
+    player: "Braydon",
+    blurb: "Tattered religious instrumentalist",
+    password: "2017",
     faction: "Out-of-Towners",
     image: "default.png"
   },
@@ -193,16 +211,16 @@ const CHARACTERS = {
     id: "archaeologist",
     player: "EXTRA",
     blurb: "Archaeologist",
-    password: "h101",
+    password: "1876",
     faction: "Out-of-Towners",
     image: "default.png"
   },
-  Caravaner: {
+  caravaner: {
     name: "Julius Fondrique",
-    id: "Caravaner",
+    id: "caravaner",
     player: "EXTRA",
     blurb: "Head Caravaner",
-    password: "j401",
+    password: "1865",
     faction: "Out-of-Towners",
     image: "default.png"
   },
@@ -211,26 +229,8 @@ const CHARACTERS = {
     id: "tippler",
     player: "EXTRA",
     blurb: "Drunkard from Alibaster",
-    password: "a201",
+    password: "2006",
     faction: "Out-of-Towners",
-    image: "default.png"
-  },
-  prophet: {
-    name: "Mabee D. King",
-    id: "prophet",
-    player: "Jen",
-    blurb: "Religious Prophet, de facto leader of New Bloom Unity",
-    password: "j501",
-    faction: "New Bloom Unity",
-    image: "default.png"
-  },
-  choir_boy: {
-    name: "Brilliant Brian Burpe",
-    id: "choir_boy",
-    player: "Braydon",
-    blurb: "Tattered religious instrumentalist",
-    password: "b301",
-    faction: "New Bloom Unity",
     image: "default.png"
   },
   farrier: {
@@ -238,8 +238,8 @@ const CHARACTERS = {
     id: "farrier",
     player: "EXTRA",
     blurb: "Religious traveling Farrier",
-    password: "s201",
-    faction: "New Bloom Unity",
+    password: "9999",
+    faction: "Out-of-Towners",
     image: "default.png"
   },
   teacher: {
@@ -247,20 +247,47 @@ const CHARACTERS = {
     id: "teacher",
     player: "EXTRA",
     blurb: "Religious Schoolteacher",
-    password: "o101",
-    faction: "New Bloom Unity",
+    password: "2002",
+    faction: "Out-of-Towners",
     image: "default.png"
   },
-  ranger: {
+  trade_town_surgeon: {
     name: "Sparkling Ooo Oasis",
-    id: "ranger",
+    id: "trade_town_surgeon",
     player: "EXTRA",
     blurb: "Religious Ranger",
-    password: "o201",
-    faction: "New Bloom Unity",
+    password: "1111",
+    faction: "Out-of-Towners",
     image: "default.png"
   }
 };
+
+const DATABASE_PORTALS = [
+  {
+    id: "archive-alpha",
+    title: "Archive Alpha",
+    description: "Restricted off-world incident logs.",
+    password: "alpha-2260",
+    href: "lore.html",
+    cta: "Open Archive"
+  },
+  {
+    id: "archive-beta",
+    title: "Archive Beta",
+    description: "Personnel files and witness records.",
+    password: "beta-2260",
+    href: "characters.html",
+    cta: "Open Records"
+  },
+  {
+    id: "archive-gamma",
+    title: "Archive Gamma",
+    description: "Operational directives and incident rules.",
+    password: "gamma-2260",
+    href: "rules.html",
+    cta: "Open Directives"
+  }
+];
 
 function createCharacterDetails(
   player,
@@ -433,7 +460,7 @@ Secret Trait:
 Iron-lung: If they have not been cured after 10 minutes of being poisoned, they do not die from the poison.
 Still cannot use abilities until cured.`
   ),
-  mercenary: createCharacterDetails(
+  saloon_hand: createCharacterDetails(
     "Brody",
     "LeRoy Cassidy",
     "Saloonhand",
@@ -455,7 +482,7 @@ Not so fast!: An ability played by another player has no effect! However, it sti
 Let’s share what we know.
 After talking to another player, show them your clue. They must then show you their clue. $50`
   ),
-  doctor: createCharacterDetails(
+  surgeon: createCharacterDetails(
     "Nainika",
     "Maddie Stark",
     "Surgeon/ Town-Doctor",
@@ -480,7 +507,7 @@ Investigate: While speaking to another player, they must show you all of their i
 Medicine-Maker:
 You can craft Antidotes for poisoned players, or craft Poisons.`
   ),
-  saloon_hand: createCharacterDetails(
+  saloon_chef: createCharacterDetails(
     "Ava",
     "Lillian Bell [Count Bill]",
     `Saloon hand -
@@ -498,7 +525,7 @@ The Yappening: If another player plays an ability on you that forces you to reve
 Medicine-Maker:
 You can craft Antidotes for poisoned players, or craft Poisons.`
   ),
-  assistant: createCharacterDetails(
+  mayors_assistant: createCharacterDetails(
     "Jade",
     "Willy [the Child]",
     `Mayor’s Assistant
@@ -529,7 +556,7 @@ You’ve revealed more than you intended: Another player has revealed more than 
     null,
     null
   ),
-  drunkard: createCharacterDetails(
+  traveling_performer: createCharacterDetails(
     "Extra",
     "Blues McGee",
     null,
@@ -537,7 +564,7 @@ You’ve revealed more than you intended: Another player has revealed more than 
     null,
     null
   ),
-  space_cowboy: createCharacterDetails(
+  retired_cowboy: createCharacterDetails(
     "Melina",
     "Jet [Of the Three Oldies]",
     "Retired Cowboy",
@@ -582,7 +609,7 @@ It’s Just a Flesh Wound!: Play this after someone has defeated you in combat i
 
 Keep the Change: Another player has revealed more than they intended and must reveal their Secret to you. $$$75.`
   ),
-  saleswoman: createCharacterDetails(
+  doctor: createCharacterDetails(
     "Sam",
     "Lucille Canott",
     `(40 B.C. - X A.D.)
@@ -613,7 +640,7 @@ granting a one-time immunity to an attack - If ties, or fails, they can only fle
 
 *Immune to poison usually but can be affected if they drink from a poisoned victim.`
   ),
-  salesman: createCharacterDetails(
+  health_practitioner: createCharacterDetails(
     "Phoenix",
     "Simón de Cuca",
     `(1485 A.D. - X A.D.)
@@ -729,7 +756,7 @@ Not so fast!: An ability played by another player has no effect! However, it sti
     null,
     null
   ),
-  Caravaner: createCharacterDetails(
+  caravaner: createCharacterDetails(
     "Extra",
     "Julius Fondrique",
     "Head Caravaner",
@@ -762,7 +789,7 @@ Thorough appraisal: After speaking to another player, they must show you all the
     `Your goal: Figure out what the hell is going on`,
     null
   ),
-  prophet: createCharacterDetails(
+  drunkard: createCharacterDetails(
     "Jen",
     "Countess Mabee D. King II",
     "“Drunkard” / Leader of Old Blood Order",
@@ -788,7 +815,7 @@ Tell the Bartender which item you want to pickpocket from a prospective or promi
 
 Not so fast!: An ability played by another player has no effect! However, it still costs a use and they cannot use that ability on you again. Cannot be used to cancel out another Not so fast!. May be used to cancel a pickpocket. $$$100.`
   ),
-  choir_boy: createCharacterDetails(
+  saloon_singer: createCharacterDetails(
     "Braydon",
     "Brilliant Brian Burpe",
     `“Saloon Musician” / Old Blood Order member
@@ -837,7 +864,7 @@ Your many years alive have given you much time to learn the trick of swindling. 
     null,
     null
   ),
-  ranger: createCharacterDetails(
+  trade_town_surgeon: createCharacterDetails(
     "Extra",
     "Ooo Oasis",
     null,
@@ -992,6 +1019,32 @@ function loggedInCharacterDetails() {
         .replaceAll(">", "&gt;")
         .replaceAll('"', "&quot;")
         .replaceAll("'", "&#39;");
+    }
+  };
+}
+
+function databaseAccess() {
+  return {
+    portals: DATABASE_PORTALS.map((portal) => ({
+      ...portal,
+      value: "",
+      unlocked: false,
+      hasError: false
+    })),
+
+    submitPortal(portal) {
+      if (portal.unlocked) {
+        window.location.href = portal.href;
+        return;
+      }
+
+      if (portal.value === portal.password) {
+        portal.unlocked = true;
+        portal.hasError = false;
+        return;
+      }
+
+      portal.hasError = true;
     }
   };
 }
