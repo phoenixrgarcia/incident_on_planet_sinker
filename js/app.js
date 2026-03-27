@@ -319,8 +319,7 @@ const CHARACTERS_DETAILED = {
   dentist: createCharacterDetails(
     "Nate R.",
     "Dr. Casanova Holiday",
-    `Dentist
-Clothing: Vest, button-down shirt, high-waisted loose fitting trousers.`,
+    `Dentist`,
     `“I’ve gambled everything, my house, my wife, my dog, but son you have to believe me this is for a good cause. I’m gonna win everything back from those f*cks tonight!”
 Once a good-natured, selfless person working diligently as the town’s dentist. After he lost a good portion of his life in the city’s casino, he has since taken to drinking to forget his troubles. Still works as a dentist but prices have skyrocketed to fuel his addiction to emptying his pockets. Hoping to hit the jackpot this weekend, you first take a trip to the local saloon. Wouldn’t you know it, it turns out it's their 6th anniversary tonight, or is it their 7th? You wonder if that bluebellied mayor is going to make a speech tonight.`,
     `Your goal:
@@ -345,9 +344,7 @@ You can craft Antidotes for poisoned players, or craft Poisons.`
   saloon_musician: createCharacterDetails(
     "Nate J.",
     "Hornvalley the Freak",
-    `Saloon Musician
-Clothing: Double-breasted suit with a dress shirt underneath.
-Performance attire`,
+    `Saloon Musician`,
     `Former member of a small jazz band who also acted as bandits. When a hit went wrong, ending up with an entire bar of people ending up dead including your former partners in crime, you moved to a new town under a new name, Hornvalley the Freak, hoping the name serves a reminder of a life lived formerly in vain.
 Lately, you’ve been a solo act, but tonight the mayor has invited another to join you for your performance, Brian Burpe. But, something doesn’t feel right about him…
 Your goal:
@@ -366,9 +363,7 @@ Play a tune and receive payment of $$$100, if they ain’t got the cash knock th
   blacksmith: createCharacterDetails(
     "Carter",
     "Buffalo Grass",
-    `Blacksmith
-Clothes:
-Leather apron, cotton or wool long-sleeve shirt, sturdy denim or wool trousers with thick leather boots.`,
+    `Blacksmith`,
     `You and Ambitious served together in the No Man’s Corral war. After the war, you upkept your arms manufacturing prowess, and now run a blacksmithing business famous across the settlements. The mayor, Ambitious, gave you a home base in town for whenever you finish your travels and
 When he announced he would be running again, he challenged you to try to run as well as his rival. Nothing’s healthier than competition, he said.`,
     `Secret: You know about the existence of vampyrs, but no one believes you.
@@ -388,9 +383,7 @@ Still cannot use abilities until cured.`
   sheriff: createCharacterDetails(
     "Lizzy",
     "Annie Brokley",
-    `Sheriff
-Clothes:
-Trousers, button-up shirt, vest or waistcoat, cowboy hat.`,
+    `Sheriff`,
     `You’re the town’s reliable sheriff with a heart of gold. You mean business but make time for your community.
 Tonight’s the saloon’s 6th anniversary, surely you should make an appearance as the town’s sheriff. As you made your way there, you ran into Lillian Bell, one of Ambitious’ errand runners. You ask her what’s in the bags she’s carrying and she tells you not to worry about it, it’s official Ambitious business. You pay it no mind as soon as you hear that, and continue on your way to the saloon.`,
     `Your goal: Ambitious told you his enemies may act on his life soon, but you did not believe him until tonight. He gave you the task of securing the deed, but he forgot to instruct you on where to find it.
