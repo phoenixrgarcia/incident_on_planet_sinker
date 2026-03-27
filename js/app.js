@@ -116,33 +116,6 @@ const CHARACTERS = {
     faction: "Locals",
     image: "default.png"
   },
-  businessman: {
-    name: "Ted Bannett",
-    id: "businessman",
-    player: "EXTRA",
-    blurb: "Owner of Mattress Firm",
-    password: "2012",
-    faction: "Out-of-Towners",
-    image: "default.png"
-  },
-  traveling_performer: {
-    name: "Blues McGee",
-    id: "traveling_performer",
-    player: "EXTRA",
-    blurb: "Wanderer from Highhome",
-    password: "1860",
-    faction: "Out-of-Towners",
-    image: "default.png"
-  },
-  farmer: {
-    name: "Lake Strawberry",
-    id: "farmer",
-    player: "EXTRA",
-    blurb: "Blueberry Farmer",
-    password: "1986",
-    faction: "Out-of-Towners",
-    image: "default.png"
-  },
   journalist: {
     name: "Spikie Rickett",
     id: "journalist",
@@ -215,6 +188,61 @@ const CHARACTERS = {
     faction: "Out-of-Towners",
     image: "default.png"
   },
+  teacher: {
+    name: "Opulent Spruce Louis",
+    id: "teacher",
+    player: "Xavier",
+    blurb: "Religious Schoolteacher",
+    password: "2002",
+    faction: "Out-of-Towners",
+    image: "default.png"
+  },
+  trade_town_surgeon: {
+    name: "Sparkling Ooo Oasis",
+    id: "trade_town_surgeon",
+    player: "EXTRA",
+    blurb: "Religious Ranger",
+    password: "1111",
+    faction: "Out-of-Towners",
+    image: "default.png"
+  },
+  sister: {
+    name: "Meryl Stryfeson",
+    id: "sister",
+    player: "EXTRA",
+    blurb: "OnCarryVan Sister",
+    password: "0606",
+    faction: "Out-of-Towners",
+    image: "default.png"
+  },
+  traveling_performer: {
+    name: "Blues McGee",
+    id: "traveling_performer",
+    player: "EXTRA",
+    blurb: "Wanderer from Highhome",
+    password: "1860",
+    faction: "Out-of-Towners",
+    image: "default.png"
+  },
+  businessman: {
+    name: "Ted Bannett",
+    id: "businessman",
+    player: "EXTRA",
+    blurb: "Owner of Mattress Firm",
+    password: "2012",
+    faction: "Out-of-Towners",
+    image: "default.png"
+  },
+  farmer: {
+    name: "Lake Strawberry",
+    id: "farmer",
+    player: "EXTRA",
+    blurb: "Blueberry Farmer",
+    password: "1986",
+    faction: "Out-of-Towners",
+    image: "default.png"
+  },
+
   archaeologist: {
     name: "Heinz Heinrich",
     id: "archaeologist",
@@ -248,33 +276,6 @@ const CHARACTERS = {
     player: "EXTRA",
     blurb: "Religious traveling Farrier",
     password: "9999",
-    faction: "Out-of-Towners",
-    image: "default.png"
-  },
-  teacher: {
-    name: "Opulent Spruce Louis",
-    id: "teacher",
-    player: "Xavier",
-    blurb: "Religious Schoolteacher",
-    password: "2002",
-    faction: "Out-of-Towners",
-    image: "default.png"
-  },
-  trade_town_surgeon: {
-    name: "Sparkling Ooo Oasis",
-    id: "trade_town_surgeon",
-    player: "EXTRA",
-    blurb: "Religious Ranger",
-    password: "1111",
-    faction: "Out-of-Towners",
-    image: "default.png"
-  },
-  sister: {
-    name: "Meryl Stryfeson",
-    id: "sister",
-    player: "EXTRA",
-    blurb: "OnCarryVan Sister",
-    password: "0606",
     faction: "Out-of-Towners",
     image: "default.png"
   },
