@@ -42,6 +42,11 @@
     --border-glow: rgb(from var(--primary-neon) r g b / 0.3)
 }
 
+.theme-database{
+     --primary-neon: #FF0000;
+    --secondary-neon: #443737;
+    --border-glow: rgb(from var(--primary-neon) r g b / 0.3)
+}
 * {
     margin: 0;
     padding: 0;
