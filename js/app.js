@@ -352,8 +352,7 @@ const CHARACTERS_DETAILED = {
     `Dentist`,
     `“I’ve gambled everything, my house, my wife, my dog, but son you have to believe me this is for a good cause. I’m gonna win everything back from those f*cks tonight!”
 Once a good-natured, selfless person working diligently as the town’s dentist. After he lost a good portion of his life in the city’s casino, he has since taken to drinking to forget his troubles. Still works as a dentist but prices have skyrocketed to fuel his addiction to emptying his pockets. Hoping to hit the jackpot this weekend, you first take a trip to the local saloon. Wouldn’t you know it, it turns out it's their 6th anniversary tonight, or is it their 7th? You wonder if that bluebellied mayor is going to make a speech tonight.`,
-    `Your goal:
-Get back your gambled goods from the town’s surgeon and the mayor, one way or another. $$$5,000 for the mayor, $$$2,100 for Dr. Stark.
+    `Get back your gambled goods from the town’s surgeon and the mayor, one way or another. $$$5,000 for the mayor, $$$2,100 for Dr. Stark.
 
 If you can get the land deed, you may just be able to barter your way out of debt.
 
@@ -376,10 +375,13 @@ You can craft Antidotes for poisoned players, or craft Poisons.`
     "Hornvalley the Freak",
     `Saloon Musician`,
     `Former member of a small jazz band who also acted as bandits. When a hit went wrong, ending up with an entire bar of people ending up dead including your former partners in crime, you moved to a new town under a new name, Hornvalley the Freak, hoping the name serves a reminder of a life lived formerly in vain.
-Lately, you’ve been a solo act, but tonight the mayor has invited another to join you for your performance, Brian Burpe. But, something doesn’t feel right about him…
-Your goal:
-Ambitious gave you his log-in to his computer, knowing you’d never betray him, but you can never remember his password.`,
-    `Secret: You used to be the leader of a music-based band of bandits.
+Lately, you’ve been a solo act, but tonight the mayor has invited another to join you for your performance, Brian Burpe. But, something doesn’t feel right about him…`,
+`The Log-In:  Ambitious gave you his log-in to his computer, knowing you’d never betray him, but you can never remember his password.
+
+Performance Fee:
+Get some earnings for your performance. A good night looks like $$$5,000.
+
+    Secret: You used to be the leader of a music-based band of bandits.
 
 Clue: Your new bandmate has been restless all night, pacing back up and down the halls of the saloon, looking out at the mayor’s office. His eyes continue to scan the halls as if he were looking for something hidden beneath the surface.`,
     `Sharpshooting:
@@ -416,7 +418,7 @@ Still cannot use abilities until cured.`
     `Sheriff`,
     `You’re the town’s reliable sheriff with a heart of gold. You mean business but make time for your community.
 Tonight’s the saloon’s 6th anniversary, surely you should make an appearance as the town’s sheriff. As you made your way there, you ran into Lillian Bell, one of Ambitious’ errand runners. You ask her what’s in the bags she’s carrying and she tells you not to worry about it, it’s official Ambitious business. You pay it no mind as soon as you hear that, and continue on your way to the saloon.`,
-    `Your goal: Ambitious told you his enemies may act on his life soon, but you did not believe him until tonight. He gave you the task of securing the deed, but he forgot to instruct you on where to find it.
+    `Ambitious told you his enemies may act on his life soon, but you did not believe him until tonight. He gave you the task of securing the deed, but he forgot to instruct you on where to find it.
 
 Keep an eye on the out-of-towners, they sure picked an awful day to come into town, could it be mere coincidence?
 
@@ -441,8 +443,7 @@ Money-loving, but willing to cooperate and split a prize fairly: 80-20.
 
 Though the mayor, Ambitious, filled your request to join as a deputy he still holds and threatens that if you told anyone about any dealings y’all participated in he would have your head. You both agreed to mutual destruction.
 Tonight’s a much different night, get yourself a drink, you’ve earned it.`,
-    `Your goal:
-Assist the sheriff in finding the assailant.
+    `Assist the sheriff in finding the assailant.
 
 Keep an eye on the out-of-towners, they sure picked an awful day to come into town, could it be mere coincidence?
 
@@ -514,8 +515,7 @@ Serves as the town doctor, and one of the region’s top medical practitioners.
 Is not above challenging strangers at a bar for their last scraps. Displays a fearless yet almost foolish confidence in her luck.
 Incredibly skilled at cards, consistently defeating opponents until they refuse to play with her.
 Always carrying her Heat Waves 187M Pistol as insurance.`,
-    `Your goal:
-Find the deed to Little Groveland and give it to Mabee. She promised to keep her mouth shut and to give you your old lab set up and tons of raw materials to work with. It’s the least you could do.
+    `Find the deed to Little Groveland and give it to Mabee. She promised to keep her mouth shut and to give you your old lab set up and tons of raw materials to work with. It’s the least you could do.
 
 Victory Lap: Dr. Holiday and Willie just don’t know when to quit. Mix a little business with pleasure, have a stab at some cards tonight, rack up some stacks, the next town over has a casino. It’d be nice to have a pool to start with, maybe $2000?
 
@@ -541,8 +541,7 @@ Was taken in by the Mayor after he found you orphaned by the No Man’s Corral W
 Ambitious called you to his office today, asking if you could begin transferring some supplies over to the green space, Little Groveland, under the cover of darkness. You agree and he instructs you that the supplies will be in the supply shed behind the office. 
 When you make it inside you see your adoptive brother, Willy visibly shaken.
 You move the bags to your Hema ready to mosey on out of town once the CarryVan arrives, but you don’t wanna miss the 6th annual Saloon speech Ambitious is going to give. Surely, he won’t mind if you are still in town a little longer.`,
-    `Your goal: 
-    Ticket Out of Here: Get a ticket out of town, you should probably still finish getting the supplies hidden in Groveland tomorrow. That was kinda Ambitious’ last wish to you.
+    `Ticket Out of Here: Get a ticket out of town, you should probably still finish getting the supplies hidden in Groveland tomorrow. That was kinda Ambitious’ last wish to you.
 
 Secure the Deed: You can’t remember what Ambitious did with it, but you figure he doesn’t want it falling into the wrong hands. `,
     `A Little Off the Top: Ambitious isn’t here, you can take a little taste. An attempt to send you unconscious fails. 3 uses.
@@ -559,8 +558,7 @@ You can craft Antidotes for poisoned players, or craft Poisons.`
     `Polished, professional by old western standard in town setting.
 Carefree, jovial and confident in the town’s safety, but does carry a weapon as to not completely discount the idea of things going wrong.
 Current assistant to the mayor of Univ City. As the mayor’s closest and most trusted advisor you are fed up with the way the Mayor has treated you as if you were some hired-gun to clean up his messes. He doesn’t even write his own speeches. Sometimes you think about if it were up to you, there’d have been some sort of new leadership a long time ago. You were able to convince Ambitious to declare a truce with the Old Blood Order, but, when a scuffle broke out with patrols from both sides, the conflict had begun drumming up again. You went to Ambitious to plead for another truce deal but the discussion only ended with you in this dirty saloon with a drink in your shattered hand…`,
-    `Your goal:
-Ambitious’ death: Make sure you’re not blamed for the mayor’s death. If in doubt, move the blame to someone else.
+    `Ambitious’ death: Make sure you’re not blamed for the mayor’s death. If in doubt, move the blame to someone else.
 
 Help Mabee: It’s been a while since you saw your friend, she must be in town for a reason. See if you can help.
 
@@ -578,7 +576,7 @@ You’ve revealed more than you intended: Another player has revealed more than 
     "Ted Bannett",
     "Owner of Mattress Firm",
     "You are the eternal owner of Mattress Firm. You used to run one on Earth, but the effects of aging began to catch up with you. You then turned to the dark arts and summoned a vampyre. While he was very confused about being summoned into a Mattress Firm, you were able to get him to turn you into an eternal servant of the night. You were able to make it onto the OPUS ships before they left Earth and smuggled on several mattresses to continue your service in the new world. Now, you run a Mattress Firm in the Frozen Cap, and travel around to find who keeps stealing mattresses from your business.",
-    `Your Goal: Call Out: Expose Lake’s illegal usage of B.G’s of different towns to turn mattresses into blueberries wherever she travels.    
+    `Call Out: Expose Lake’s illegal usage of B.G’s of different towns to turn mattresses into blueberries wherever she travels.    
     
     Secret: The deed to Lil’ Groveland is hidden somewhere in the sands.
     
@@ -591,7 +589,7 @@ You’ve revealed more than you intended: Another player has revealed more than 
     "Blues McGee",
     "Wanderer from Highhome",
     "You were hired by Ambitious to perform at his saloon’s anniversary dinner. However, as you traveled to your destination from Highhome, you were kidnapped by the OBO. You’ve finally escaped their capture and made it to the Shack-a-loon but it looks like you were replaced by one of the OBO members. What the hell, man.",
-    `Your Goal: The Replacement: Expose the man who kidnapped and replaced you.
+    `The Replacement: Expose the man who kidnapped and replaced you.
    
     Secret: You can’t remember his full name but you remember you were replaced by a man with the initials BBB.
     
@@ -608,8 +606,7 @@ Intimidate: Speak in an intimidating manner to another character. They must then
     "Jet [Of the Three Oldies]",
     "Retired Cowboy",
     `Riddled with back pain, you spend most of your days either practicing your old skills as a cowboy, doing stretches to get mobility back, or drinking to keep the edge off. It feels like tonight ain’t a normal night, you can feel it in your spine.`,
-    `Your goal:
-Scorched earth: There’s something curious about these travelers in town. Find out what they’re up to.
+    `Scorched earth: There’s something curious about these travelers in town. Find out what they’re up to.
 
 Check in:
 Check in on those closest to the mayor.`,
@@ -624,7 +621,7 @@ Hold Up: While speaking to another player, they may show you all of their item c
     "Lake Strawberry",
     "Blueberry Farmer",
     "",
-    `Your goal: Illegal Conduct: Expose Ted’s illegal usage of B.G’s to turn blueberries into mattresses.`,
+    `Illegal Conduct: Expose Ted’s illegal usage of B.G’s to turn blueberries into mattresses.`,
     `Secret: You have been using B.G’s to make mattresses into blueberries.
     
     Clue: Ted is your business rival. `,
@@ -634,16 +631,14 @@ Hold Up: While speaking to another player, they may show you all of their item c
   journalist: createCharacterDetails(
     "CJ",
     "Spikie Rickett",
-    `Journalist ?
-Clothing: Vest, button-down shirt, high-waisted loose fitting trousers.`,
+    `Journalist ?`,
     `Has no recollection of childhood or life before the Hema accident.
 The only thing that’s clear is his name, age and occupation as he found a card in his wallet listing this very information.
 Gambling-prone
 Laid-back
 Something is nagging in the back of his mind, but something tells you it would be better for you to let the past lie.
 Suffering from amnesia after a Hema related accident.`,
-    `Your goal:
-Find out just what happened before your horse-related incident. Surely, you have to report whatever it was to your superior for workmans comp.
+    `Find out just what happened before your horse-related incident. Surely, you have to report whatever it was to your superior for workmans comp.
 
 Maybe You Oughta See a Doctor: Ever since you woke up your head and jaw have been bothering you! You’ve heard some good things about the doctor in town. Check in and get something to numb the pain.`,
     `Investigate: While speaking to another player, they must show you all of their item cards and money. (You can’t take their items or money-just look at them.) $$$50.
@@ -660,8 +655,7 @@ Keep the Change: Another player has revealed more than they intended and must re
     `Has lived for centuries, born within the Roman Republic, much of her history remains shrouded in mystery or forgotten. Came in contact with Simón in 1519 and have been inseparable, turning him after an accident leaving him on death’s door.
 You were able to narrowly avoid the humans’ No Man’s Corral war and now work with Julius’ CarryVan in exchange for Julius’ life.
 In the day to day, you work as a snake-oil seller to mark targets.`,
-    `Your goal:
-Thievery
+    `Thievery:
 Ambitious promised you a piece of Groveland in exchange for his life, well he’s dead, now you have to win that land the ol’ fashion way: a theft.
 
 Hidden Truths:
@@ -696,8 +690,7 @@ granting a one-time immunity to an attack - If ties, or fails, they can only fle
 You have lived for centuries with Lucille and since then you two have been inseparable. Lately, you have fallen in cooperation with Julius’ CarryVan. In exchange for his life, he supplies you with fresh feed.
 Day to day works as a snake-oil seller to mark targets.
 May have a bit of a gambling addiction.`,
-    `Your goals:
-The Deed: 
+    `The Deed: 
 Ambitious is dead, you don’t know by what means, but now is time for you and Lucille to find the Lil’ Groveland deed.
 
 In the doghouse:
@@ -736,9 +729,8 @@ Can be too eager causing her to fall for trap bait.
 
 Ambitious used to relish in the craft. You guys made a solid team back during the initial conflict of the No Man’s Corral War. Why did he have to go on and start on the straight and narrow with his promotion to general when those Old Blood Order fanatics became so uppity. He was even talking about making his own town when this was all over someday, complete with an already finished map of town. You tried to talk him back into his old ways but all he did was nag and nag about responsibilities. You’ll show him some responsibilities you told him and stormed out.
 It’s been some time since the conflict has ended between the Plainsmen and the Old Blood Order, and you’ve heard for his efforts Ambitious has been crowned mayor of a whole town. Guess it’s time to pay your respects to the new leader. You make your preparations and journey to this new spangled town.`,
-    `Your goals:
-
-Don’t let anyone find out about the bomb you have laying in the catacombs between the mayor’s office and the saloon.
+    `Big Boom:
+Don’t let anyone find out about the bomb you have laying in the catacombs between the mayor’s office and the saloon and survive to see them go off.
 
 Secret: You traveled in the catacombs between the mayor’s office and the saloon tonight.
 
@@ -761,11 +753,13 @@ Still cannot use abilities until cured.`
 Many believe this name to have originated from his meticulous and inhumane methods on the Faro table, however, he earned that name in his service during the No Man’s Corral War’s inciting incident with the Deadwoods. Favorite set of cards: a black pair of aces and eights.
 
 You go to the saloon to blow off some steam, oh it looks like the Bartender has something to say to everyone…`,
-    `Your goal:
+    `Your Good Ol' Boys:
 Collect your pair of aces and eights by any means necessary.
 
-A Lil’ Silly With It: Mix a little business with pleasure, have a stab at some cards tonight, rack up some stacks, the next town over has a casino. It’d be nice to have a pool to start with, maybe $$$2000?
+A Lil’ Silly With It: 
+Mix a little business with pleasure, have a stab at some cards tonight, rack up some stacks, the next town over has a casino. It’d be nice to have a pool to start with, maybe $$$2000?
 
+Get Out of Dodge:
 Get a ticket out of town as soon as you can.
 
 Secret:
@@ -785,11 +779,13 @@ Good Judge of Character: Another player must reveal their secret to you. $$$150.
     `Blend of innocent airheadness, but can be deceptively perceptive. Bubbly and optimistic coming from a family of 10 siblings (3 older brothers, 3 older sisters,1 younger brother and a newborn set of twins: a baby boy and girl). Loves writing to and talking about her family, referencing teachings from her parents, siblings, and cousins and her aunts and her uncles and her grand-parents and her … she continues without pause.
 “Oh I almost forgot my sister is coming into town, it must have slipped my mind! I should wait for her at our favorite tavern.”
 Went to Ambitious for an interview/interrogation.`,
-    `Your goal:
+    `Report: Deed Acquisition:
 Find the location of the Groveland deed.
 
+Write Home Every Once in a While:
 Write to your family, soon as you can.
 
+Poor Spikie:
 Figure out what ails Spikie
 
 Secret: You found Ambitious’ body earlier and while investigating it, heard a noise, panicked and left out the window.`,
@@ -823,7 +819,7 @@ I’ve bared my heart-you bare yours: Reveal your secret to another player - the
 You used to be involved with the Staten project under Reed the Star, and worked to get her specimens for her experiments. Some would call it a human trafficking business, you just call it good business. However, after the No Man’s Corral ended, you gained some new clients. It turns out that some of the inhabitants of the OPUS fleet were more than human and though you ran into them by chance, they have dictated your life since, threatening your life if you don’t bring them meat. You got in contact with your old friend from the Plainsmen, Ambitious, the new mayor of Univ Valley, who was gracious enough to lend help in building your CarryVan. It works as good business to get people across to different settlements, but for those stragglers who fail to pay the travelers fee, there awaits a less than pretty fate. Better them than you.
 You traveled ahead of the CarryVan tonight to gain approval for passage from Ambitious as you do yearly.
 You go to the saloon to meet with him, but he has apparently refused to show as you see his assistant in his stead. He says Ambitious will be available after his speech. Though he seemed visibly strained, you ignored it to go back to drinking. Though, you have bigger fish to fry. It seems your old friends, as if you could call them that, are in town. The vampyres are a little ahead of schedule and already here. Stress`,
-    `Your goal:
+    `So Long Suckers:
 This is your chance to get out of your blood-sucking agreement. If anyone is to be charged, you should aim to place the blame on the vampyres.
 Expose them without letting them on to your intentions.
 
@@ -845,7 +841,7 @@ Thorough appraisal: After speaking to another player, they must show you all the
     "Alex Resnick",
     "Drunkard",
     "From Highhome, you’re always looking for a good place to drink. On your travels, you shared a drink with a Reed the Star who shared the awful crimes against humanity they fostered in their lab. It haunts you and you wonder if you'll ever run into them again.",
-    `Your goal: Follow the Thread: Find the identity of Reed the Star.
+    `Follow the Thread: Find the identity of Reed the Star.
     
     Secret: You found records of Reed the Star going to Trade Town. 
     
@@ -860,22 +856,21 @@ Not so fast!: An ability played by another player has no effect! However, it sti
     "Jen",
     "Countess Mabee D. King II",
     "“Drunkard” / Leader of Old Blood Order",
-    `Pragmatic
-Intellectually Driven
-Morally ambiguous
-Leader of the “Old Blood Order” church seeking revenge for her mother.
+    `Pragmatic Leader of the “Old Blood Order” church seeking revenge for her mother.
 
 After coming in contact with an angel your mother had a vision that inspired her to live a biocentrist lifestyle, striving for humanity to completely detach from mortal pleasures and their reliance on technology. Believing that the best way forward for humanity is to return to nature’s grains.
 Your mother’s faith does not escape you, nor your followers. You were raised to despise the old ways of the people who traveled beyond the stars that still litter the lands your people have liberated. It was humanity's destiny to leave their bodies and join the infinite sea of dust amongst this planet such as the fauna do.`,
-    `Your goal:
-Receive the deed to Groveland.
+    `Free Land:
+Receive the deed to Groveland. If you have it, the OPUS government will have to recognize it as your territory.
 
+Your end of the bargain:
 Secure Dr. Madie Stark, so she may fulfill your end of the bargain…
 
-Secret: You run the “Old Blood Order”.
+Secret: You are here on official Old Blood Order business, you have to see things through.
+Lil’ Groveland was promised Old Blood territory.
 
 Clue: A relative close to you had their life taken by Ambitious.`,
-    `Cultish Fever: You’ve got a way with words, a character must reveal their clue and consider joining your community. $$$50.
+    `Religious  Fever: You’ve got a way with words, a character must reveal their clue and consider joining your community. $$$50.
 
 Tithe:
 Tell the Bartender which item you want to pickpocket from a prospective or promised follower. If that follower does not have what you seek. The Bartender will take something else at random. 3 uses.
@@ -885,15 +880,12 @@ Not so fast!: An ability played by another player has no effect! However, it sti
   saloon_singer: createCharacterDetails(
     "Braydon",
     "Brilliant Brian Burpe",
-    `“Saloon Musician” / Old Blood Order member
-Clothing: Double-breasted suit with a dress shirt underneath.
-Performance attire`,
+    `“Saloon Musician” / Old Blood Order member`,
     `Left with a little amnesia of your past life, you have become a part of the Old Blood Order. You’ve been told you were a brave and compassionate soldier in the No Man’s Corral War but your memory fails you.
 Your faith has arrived in town and tasked you with infiltration under the guise of a traveling musician, one such dream you had as a child. But, as you set up in the town’s saloon a voice rings out in your head trying to tell you something is wrong. Just another hallucination, you decide, they’ve been growing in number recently.
 Will you complete your holy mission, or will you first fall prey to your delusions?
 “How will they kill the man who never sleeps?”`,
-    `Your goal:
-    The Deed:   
+    `The Deed:   
 Retrieve the deed to Lil Groveland.
 
 Equivalent Exchange: 
@@ -917,7 +909,8 @@ Intimidate: Speak in an intimidating manner to another character. They must then
     `Farrier / Old Blood Order member`,
     `You were once a brave prison guard for the Plainsmen, but now serve the Old Blood Order faith.
 You are a calm , collected and stern individual, reasons why your prophet Mabee II believes you are perfect for this infiltration mission. You operate under the guise as a ferrier, a specialist in equine hoof care. But your true mission goes: “Find the deed, get out of town.” Now get to work, soldier.`,
-    `Your goal: You know Ambitious hid the deed in the saloon somewhere. For the good of the world, it may prove best to find and secure the document before it is pawned off to less than worthy hands.
+    `The Deed:
+    You know Ambitious hid the deed in the saloon somewhere. For the good of the world, it may prove best to find and secure the document before it is pawned off to less than worthy hands.
 
 Secret: You are a part of the Old Blood Order.
 
@@ -934,7 +927,7 @@ Your many years alive have given you much time to learn the trick of swindling. 
     "Spruce Louis",
     "Traveling SchoolTeacher",
     "You worked as a schoolteacher in Highhome but when the OBO came into town, you joined their cause. Now, you are a part of the backup squadron if things go wrong in Univ Valley. However, you were robbed and knocked out by Kalamity Bane at your outpost, once you awoke you realized the performer you guys were able to capture and replace with Brian has escaped his cage and made his way into town. That seems to be a problem, recover the asset and assist in getting the deed to Groveland. And get that Kalamity girl while you’re at it, her disrespect will not stand.",
-    `Your goal: Free Land:
+    `Free Land:
 Receive the deed to Groveland. If you have it, the OPUS government will have to recognize it as your territory.
 
 Your end of the bargain:
@@ -956,7 +949,7 @@ Your many years alive have given you much time to learn the trick of swindling. 
     "Ooo Oasis",
     "Traveling Surgeon",
     "You worked as a surgeon in Trade Town. Your services included blood transfusions, brain surgery, facial reconstruction surgery, and many more services.However, recently you have converted to work for the Old Blood Order. You were told to wait outside of town if something happened. You’ve been given the signal, it’s go time. Secure the deed, and assist as many OBO members as you can.",
-    `Your goal: Free Land:
+    `Free Land:
 Receive the deed to Groveland. If you have it, the OPUS government will have to recognize it as your territory.
 
 Your end of the bargain:
@@ -974,9 +967,9 @@ Secure Dr. Madie Stark, so she may fulfill your end of the bargain…
     "Investigative Journalist",
     `Sister of Milly, who was set to arrive in town March 26 but her wagon was delayed by bandits. Luckily, the CarryVan was plowing through the sands and she was able to make it aboard, albeit illegally. You ran into a spot of trouble when the conductor found you and asked for your ticket. You ran into trouble on the CarryVan and avoided arrest until it reached Univ Valley. They were trying to hold you in a holding cell to be processed for meat!
 Now you can catch up with your sister and Spikie in figuring out the goings-ons of the town and expose the various ne’er-do-wells this very night for all of their connections to the underworld.`,
-    `Your goal:
-    Where is She?
-Find out what happened to the CarryVan and your sister.
+    `Where are they?
+Find out what happened to your friends: Spikie, Vicente Deual and your sister.
+
 Little Lies:
 Expose the truths behind Ambitious ambitions. 
 
