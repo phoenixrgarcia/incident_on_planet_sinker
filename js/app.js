@@ -264,28 +264,28 @@ const CHARACTERS = {
 
 const DATABASE_PORTALS = [
   {
-    id: "archive-alpha",
-    title: "Archive Alpha",
-    description: "Restricted off-world incident logs.",
+    id: "saloon-storage",
+    title: "Saloon Storage",
+    description: "Information about the Saloon stocking records.",
     password: "alpha-2260",
     href: "lore.html",
-    cta: "Open Archive"
+    cta: "Open Storage"
   },
   {
-    id: "archive-beta",
-    title: "Archive Beta",
-    description: "Personnel files and witness records.",
-    password: "beta-2260",
+    id: "mayor-management-system",
+    title: "Mayor Management System",
+    description: "The mayors internal record keeping system.",
+    password: "beta-",
     href: "characters.html",
-    cta: "Open Records"
+    cta: "Open Management System"
   },
   {
-    id: "archive-gamma",
-    title: "Archive Gamma",
-    description: "Operational directives and incident rules.",
+    id: "jailor-journal",
+    title: "Jailor Journal",
+    description: "Records of the activity in Univ Valley jail.",
     password: "gamma-2260",
     href: "rules.html",
-    cta: "Open Directives"
+    cta: "Open Journal"
   }
 ];
 
