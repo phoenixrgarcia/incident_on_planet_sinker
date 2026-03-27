@@ -254,7 +254,7 @@ const CHARACTERS = {
   teacher: {
     name: "Opulent Spruce Louis",
     id: "teacher",
-    player: "EXTRA",
+    player: "Xavier",
     blurb: "Religious Schoolteacher",
     password: "2002",
     faction: "Out-of-Towners",
@@ -378,10 +378,10 @@ You can craft Antidotes for poisoned players, or craft Poisons.`
     `Former member of a small jazz band who also acted as bandits. When a hit went wrong, ending up with an entire bar of people ending up dead including your former partners in crime, you moved to a new town under a new name, Hornvalley the Freak, hoping the name serves a reminder of a life lived formerly in vain.
 Lately, you’ve been a solo act, but tonight the mayor has invited another to join you for your performance, Brian Burpe. But, something doesn’t feel right about him…
 Your goal:
-Ambitious gave you his log-in to his computer, knowing you’d never betray him, but you can never remember his username.`,
+Ambitious gave you his log-in to his computer, knowing you’d never betray him, but you can never remember his password.`,
     `Secret: You used to be the leader of a music-based band of bandits.
 
-Clue: Your new band partner has been restless all night, as if he were looking for something.`,
+Clue: Your new bandmate has been restless all night, pacing back up and down the halls of the saloon, looking out at the mayor’s office. His eyes continue to scan the halls as if he were looking for something hidden beneath the surface.`,
     `Sharpshooting:
 You can make a failed or tied rock-paper-scissors challenge succeed. Does not have to be a challenge you’re involved in. 3 uses.
 
