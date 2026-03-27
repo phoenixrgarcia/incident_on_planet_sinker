@@ -285,7 +285,7 @@ const DATABASE_PORTALS = [
     id: "saloon-storage",
     title: "Saloon Storage",
     description: "Information about the Saloon stocking records.",
-    password: "111",
+    password: "0873",
     href: "lore.html",
     cta: "Open Storage",
     clue: "<i>While browsing the saloon storage, you come across one suspicious record you see</i>:<br><br> One order of <b class='clue-hint'>kill the mayor</b> please from <b class='clue-hint'>the killer</b>."
@@ -294,7 +294,7 @@ const DATABASE_PORTALS = [
     id: "mayor-management-system",
     title: "Mayor Management System",
     description: "The mayors internal record keeping system.",
-    password: "222",
+    password: "0340",
     href: "characters.html",
     cta: "Open Management System",
     clue: "<i>While browsing the management system, you come across one suspicious record you see</i>:<br><br> One order of <b class='clue-hint'>kill the mayor</b> please from <b class='clue-hint'>the killer</b>."
@@ -303,7 +303,7 @@ const DATABASE_PORTALS = [
     id: "jailor-journal",
     title: "Jailor Journal",
     description: "Records of the activity in Univ Valley jail.",
-    password: "333",
+    password: "8055",
     href: "rules.html",
     cta: "Open Journal",
     clue: "<i>While browsing the jailor journal, you come across one suspicious record you see</i>:<br><br> One order of <b class='clue-hint'>kill the mayor</b> please from <b class='clue-hint'>the killer</b>."
@@ -847,10 +847,18 @@ Your faith has arrived in town and tasked you with infiltration under the guise 
 Will you complete your holy mission, or will you first fall prey to your delusions?
 “How will they kill the man who never sleeps?”`,
     `Your goal:
+    The Deed:   
+Retrieve the deed to Lil Groveland.
 
-Secret: You know Ambitious worked with the Old Blood Order.
+Equivalent Exchange: 
+Secure and get Dr. Maddie Stark out of town to hold up the Old Blood Order’s end of the bargain.
 
-Clue: Maddie may act relaxed, but she knows more than she lets on.`,
+Familiar Faces:
+It seems when some folk see your face, they tend to stare in familiarity. See if they can help jog your memory of your past life.
+
+Secret: You know Ambitious worked with a “Reed the Star” in the past. Your tormentor, the one who relentlessly experimented on you when you tried to defect the Plainsmen… 
+
+Clue: Maddie Stark has been watching you far too closely, as if she knows something you could never remember.`,
     `I Had Worse In The War: Use this after another player has defeated you in combat. The wound has no effect: you are not injured and can now take an action. Does not work against poison. 3 uses.
 
 Have some copper for exchange: Another has to reveal their clue to you. $$$50.
