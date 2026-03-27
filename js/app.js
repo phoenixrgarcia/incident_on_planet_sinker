@@ -4,7 +4,7 @@ const CHARACTERS = {
     id: "mayor",
     player: "XXXXX",
     blurb: "The mayor of Univ Valley",
-    password: "1000",
+    password: "2419",
     faction: "Locals",
     image: "default.png"
   },
@@ -334,9 +334,9 @@ const CHARACTERS_DETAILED = {
     "XXXXX",
     "Ambitious",
     "Mayor",
-    null,
-    null,
-    null
+    "He was awarded initial mayorship due to his service in the No Man’s Corral war, but has won re-election multiple times in a row. He works alongside the CarryVan service that rolls across the dangerous sands of the planet, rolling into Univ Valley some time near the end of every month. Rumors say Ambitious was a man of many masks. His nay-sayers say he had some less than legal dealings involving: the permittance of the operations of a snake-oil sales group, those made with gangs galore and the strict control over the flow of medication. However, at the end of the day these claims are just the rumor mill trying to run a story.",
+    "Meetings Today: Cyvil: 5 PM; Spikie: 5:25 PM; Willy: 6PM; Fals Ruth: 6:45 PM",
+    "Personal Notes: LeRoy monitoring activity outside window. Incoming sandstorm may knock his buzzers away, I've been warned. Found random bracelet in office. Lillian's?"
   ),
   bartender: createCharacterDetails(
     "Noah",
