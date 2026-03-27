@@ -228,7 +228,7 @@ const CHARACTERS = {
     name: "Alex Resnick",
     id: "tippler",
     player: "EXTRA",
-    blurb: "Drunkard from Alibaster",
+    blurb: "Drunkard from Highhome",
     password: "2006",
     faction: "Out-of-Towners",
     image: "default.png"
@@ -517,17 +517,15 @@ You move the bags to your Hema ready to mosey on out of town once the CarryVan a
     null,
     `A Little Off the Top: Ambitious isn’t here, you can take a little taste. An attempt to send you unconscious fails. 3 uses.
 
-The Yappening: If another player plays an ability on you that forces you to reveal your secret or clue, you instead talk about your day. Their effort has no effect-give nothing up and their attempt fails. They still have to check off their use of ability. 3 uses.
+Flannelmouthing: If another player plays an ability on you that forces you to reveal your secret or clue, you instead talk about your day. Their effort has no effect-give nothing up and their attempt fails. They still have to check off their use of ability. 3 uses.
 
 Medicine-Maker:
 You can craft Antidotes for poisoned players, or craft Poisons.`
   ),
   mayors_assistant: createCharacterDetails(
     "Jade",
-    "Willy [the Child]",
-    `Mayor’s Assistant
-Clothing -
-Formal, semi-formal Victorian era city clothing: Frock coat, vest/waistcoat, button-up shirt, trousers, string ties or cravats, bowler or silk top hat, leather boots.`,
+    "Willy the Silly",
+    `Mayor’s Assistant`,
     `Polished, professional by old western standard in town setting.
 Carefree, jovial and confident in the town’s safety, but does carry a weapon as to not completely discount the idea of things going wrong.
 Current assistant to the mayor of Univ City. As the mayor’s closest and most trusted advisor you are fed up with the way the Mayor has treated you as if you were some hired-gun to clean up his messes. He doesn’t even write his own speeches. Sometimes you think about if it were up to you, there’d have been some sort of new leadership a long time ago. You were able to convince Ambitious to declare a truce with the Old Blood Order, but, when a scuffle broke out with patrols from both sides, the conflict had begun drumming up again. You went to Ambitious to plead for another truce deal but the discussion only ended with you in this dirty saloon with a drink in your shattered hand…`,
@@ -741,7 +739,7 @@ Figure out what ails Spikie
 Secret: You found Ambitious’ body earlier and while investigating it, heard a noise, panicked and left out the window.`,
     `Good Judge of Character: Another has to reveal their secret to you. $$$50
 
-The Yappening: If another player plays an ability on you that forces you to reveal your secret or clue, you instead talk about your day. Their effort has no effect-give nothing up and their attempt fails. They still have to check off their use of ability. 3 uses.
+Flannelmouthing: If another player plays an ability on you that forces you to reveal your secret or clue, you instead talk about your day. Their effort has no effect-give nothing up and their attempt fails. They still have to check off their use of ability. 3 uses.
 
 Not so fast!: An ability played by another player has no effect! However, it still costs a use and they cannot use that ability on you again. Cannot be used to cancel out another Not so fast!. May be used to cancel a pickpocket. $$$100.`
   ),

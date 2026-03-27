@@ -383,7 +383,7 @@ You move the bags to your Hema ready to mosey on out of town once the CarryVan a
 
 A Little Off the Top: Ambitious isn’t here, you can take a little taste. An attempt to send you unconscious fails. 3 uses. 
 
-The Yappening: If another player plays an ability on you that forces you to reveal your secret or clue, you instead talk about your day. Their effort has no effect-give nothing up and their attempt fails. They still have to check off their use of ability. 3 uses. 
+Flannelmouthing: If another player plays an ability on you that forces you to reveal your secret or clue, you instead talk about your day. Their effort has no effect-give nothing up and their attempt fails. They still have to check off their use of ability. 3 uses. 
 
 Medicine-Maker:
 You can craft Antidotes for poisoned players, or craft Poisons.
@@ -430,7 +430,7 @@ Figure out what ails Spikie
 Secret: You found Ambitious’ body earlier and while investigating it, heard a noise, panicked and left out the window. 
 Good Judge of Character: Another has to reveal their secret to you. $$$50
 
-The Yappening: If another player plays an ability on you that forces you to reveal your secret or clue, you instead talk about your day. Their effort has no effect-give nothing up and their attempt fails. They still have to check off their use of ability. 3 uses.
+Flannelmouthing: If another player plays an ability on you that forces you to reveal your secret or clue, you instead talk about your day. Their effort has no effect-give nothing up and their attempt fails. They still have to check off their use of ability. 3 uses.
 
 Not so fast!: An ability played by another player has no effect! However, it still costs a use and they cannot use that ability on you again. Cannot be used to cancel out another Not so fast!. May be used to cancel a pickpocket. $$$100. 
 
