@@ -267,26 +267,30 @@ const DATABASE_PORTALS = [
     id: "saloon-storage",
     title: "Saloon Storage",
     description: "Information about the Saloon stocking records.",
-    password: "alpha-2260",
+    password: "111",
     href: "lore.html",
-    cta: "Open Storage"
+    cta: "Open Storage",
+    clue: "<i>While browsing the saloon storage, you come across one suspicious record you see</i>:<br><br> One order of <b class='clue-hint'>kill the mayor</b> please from <b class='clue-hint'>the killer</b>."
   },
   {
     id: "mayor-management-system",
     title: "Mayor Management System",
     description: "The mayors internal record keeping system.",
-    password: "beta-",
+    password: "222",
     href: "characters.html",
-    cta: "Open Management System"
+    cta: "Open Management System",
+    clue: "<i>While browsing the management system, you come across one suspicious record you see</i>:<br><br> One order of <b class='clue-hint'>kill the mayor</b> please from <b class='clue-hint'>the killer</b>."
   },
   {
     id: "jailor-journal",
     title: "Jailor Journal",
     description: "Records of the activity in Univ Valley jail.",
-    password: "gamma-2260",
+    password: "333",
     href: "rules.html",
-    cta: "Open Journal"
-  }
+    cta: "Open Journal",
+    clue: "<i>While browsing the jailor journal, you come across one suspicious record you see</i>:<br><br> One order of <b class='clue-hint'>kill the mayor</b> please from <b class='clue-hint'>the killer</b>."
+  },
+  
 ];
 
 function createCharacterDetails(
@@ -1017,6 +1021,8 @@ function loggedInCharacterDetails() {
 }
 
 function databaseAccess() {
+  const storageKey = "databaseAccessState";
+
   return {
     portals: DATABASE_PORTALS.map((portal) => ({
       ...portal,
@@ -1024,6 +1030,34 @@ function databaseAccess() {
       unlocked: false,
       hasError: false
     })),
+
+    init() {
+      const storedState = localStorage.getItem(storageKey);
+
+      if (!storedState) {
+        return;
+      }
+
+      try {
+        const portalState = JSON.parse(storedState);
+
+        this.portals = this.portals.map((portal) => ({
+          ...portal,
+          unlocked: !!portalState[portal.id],
+          hasError: false
+        }));
+      } catch (error) {
+        localStorage.removeItem(storageKey);
+      }
+    },
+
+    saveState() {
+      const portalState = Object.fromEntries(
+        this.portals.map((portal) => [portal.id, portal.unlocked])
+      );
+
+      localStorage.setItem(storageKey, JSON.stringify(portalState));
+    },
 
     submitPortal(portal) {
       if (portal.unlocked) {
@@ -1034,6 +1068,8 @@ function databaseAccess() {
       if (portal.value === portal.password) {
         portal.unlocked = true;
         portal.hasError = false;
+        portal.value = "";
+        this.saveState();
         return;
       }
 

@@ -37,16 +37,22 @@
 }
 
 .theme-lore{
-     --primary-neon: #FAEF5D;
+    --primary-neon: #FAEF5D;
     --secondary-neon: #7E2553;
     --border-glow: rgb(from var(--primary-neon) r g b / 0.3)
 }
 
 .theme-database{
-     --primary-neon: #FF0000;
+    --primary-neon: #FF0000;
     --secondary-neon: #443737;
-    --border-glow: rgb(from var(--primary-neon) r g b / 0.3)
+    --border-glow: rgb(from var(--primary-neon) r g b / 0.3);
+    --third-color: #A98B76;
 }
+
+.clue-hint{
+    color: #A98B76;
+}
+
 * {
     margin: 0;
     padding: 0;
