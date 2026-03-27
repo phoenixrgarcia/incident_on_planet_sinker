@@ -288,7 +288,7 @@ const DATABASE_PORTALS = [
     password: "0873",
     href: "lore.html",
     cta: "Open Storage",
-    clue: "<i>While browsing the saloon storage, you come across one suspicious record you see</i>:<br><br> One order of <b class='clue-hint'>kill the mayor</b> please from <b class='clue-hint'>the killer</b>."
+    clue: "<i>While browsing the saloon storage, you come across one suspicious record you see</i>:<br><br> Category: <b class='clue-hint'>Stolen and Damaged Goods</b> <br> Town Biological Generator structural integrity at <b class='clue-hint'>RED</b>.<br> Reported Stolen Goods:<br><b class='clue-hint'>*15 Processed Buzzers</b><br><b class='clue-hint'>*27 Mushrooms</b><br><b class='clue-hint'>*11 Mulberry Seed<br></b><br> Category: <b class='clue-hint'>Livestock Loss</b> <br> Reported Stolen Livestock<br> <b class='clue-hint'>*3 Hemas</b><br><b class='clue-hint'>*5 Mollescks</b><br><b class='clue-hint'>*4 Enkai - 1 Located in nearby cavern (status: pending recovery)</b>.<br> All incidents attributed to bandit interference by superiors. <b class='clue-hint'>Questionable conclusion.</b> Further action recommended. <br> -Nicks"
   },
   {
     id: "mayor-management-system",
@@ -297,7 +297,7 @@ const DATABASE_PORTALS = [
     password: "0340",
     href: "characters.html",
     cta: "Open Management System",
-    clue: "<i>While browsing the management system, you come across one suspicious record you see</i>:<br><br> One order of <b class='clue-hint'>kill the mayor</b> please from <b class='clue-hint'>the killer</b>."
+    clue: "<i>While browsing the management system, you come across one suspicious record you see</i>:<br><br> Excerpt from the Condemned:<br> <b class='clue-hint'>-O Breath beneath burning sky, we pass the torch to my daughter; be strong, hold the faith, return becoming one again.-</b> <br> Her wailing as I lopped her head still haunts her I imagine, especially with the <b class='clue-hint'>anniversary</b> coming up. I expect her to pull something drastic in the coming days. Sending Willy to intercept.<br> He best not dilly dally over there again. He's becoming more rebellious. I see a fighter in him. <b class='clue-hint'>It scares me. He's getting harder to handle, stronger. Plus, his antics are causing serious flare-ups.</b><br> - Ambitious"
   },
   {
     id: "jailor-journal",
@@ -306,7 +306,7 @@ const DATABASE_PORTALS = [
     password: "8055",
     href: "rules.html",
     cta: "Open Journal",
-    clue: "<i>While browsing the jailor journal, you come across one suspicious record you see</i>:<br><br> One order of <b class='clue-hint'>kill the mayor</b> please from <b class='clue-hint'>the killer</b>."
+    clue: "<i>While browsing the jailor journal, you come across one suspicious record you see</i>:<br><br> Request of plot assessment: <br><b class='clue-hint'>Vicente Duela</b><br> Request Type: <b class='clue-hint'><br>Renovation <br> Dig Site <br> Extra Key for overnight access</b>."
   },
   
 ];
