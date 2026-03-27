@@ -1,4 +1,13 @@
 const CHARACTERS = {
+  mayor:{
+    name: "Ambitious",
+    id: "mayor",
+    player: "XXXXX",
+    blurb: "The mayor of Univ Valley",
+    password: "1000",
+    faction: "Locals",
+    image: "default.png"
+  },
   bartender: {
     name: "Nicks",
     id: "bartender",
@@ -259,7 +268,16 @@ const CHARACTERS = {
     password: "1111",
     faction: "Out-of-Towners",
     image: "default.png"
-  }
+  },
+  sister: {
+    name: "Meryl Stryfeson",
+    id: "sister",
+    player: "EXTRA",
+    blurb: "OnCarryVan Sister",
+    password: "0606",
+    faction: "Out-of-Towners",
+    image: "default.png"
+  },
 };
 
 const DATABASE_PORTALS = [
@@ -312,6 +330,14 @@ function createCharacterDetails(
 }
 
 const CHARACTERS_DETAILED = {
+  mayor: createCharacterDetails(
+    "XXXXX",
+    "Ambitious",
+    "Mayor",
+    null,
+    null,
+    null
+  ),
   bartender: createCharacterDetails(
     "Noah",
     "Nicks",
@@ -862,6 +888,14 @@ Your many years alive have given you much time to learn the trick of swindling. 
   trade_town_surgeon: createCharacterDetails(
     "Extra",
     "Ooo Oasis",
+    null,
+    null,
+    null,
+    null
+  ),
+  sister: createCharacterDetails(
+    "Extra",
+    "Meryl Stryfeson",
     null,
     null,
     null,
