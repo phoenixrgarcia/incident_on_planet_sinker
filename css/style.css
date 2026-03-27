@@ -196,6 +196,48 @@ h1, h2, h3, h4, h5, h6 {
     padding: 50px;
 }
 
+.rule-accordion {
+    overflow: hidden;
+}
+
+.rule-summary {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+    cursor: pointer;
+    list-style: none;
+}
+
+.rule-summary::-webkit-details-marker {
+    display: none;
+}
+
+.rule-summary:hover .section-title {
+    text-shadow: 0 0 12px var(--primary-neon);
+}
+
+.rule-summary-icon {
+    flex-shrink: 0;
+    width: 1rem;
+    height: 1rem;
+    border-right: 2px solid var(--primary-neon);
+    border-bottom: 2px solid var(--primary-neon);
+    transform: rotate(45deg);
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
+    box-shadow: 0 0 10px rgb(from var(--primary-neon) r g b / 0.35);
+}
+
+.rule-accordion[open] .rule-summary-icon {
+    transform: rotate(225deg);
+}
+
+@media (max-width: 576px) {
+    .rule-summary {
+        align-items: flex-start;
+    }
+}
+
 /* ==========================================
    FORMS
    ========================================== */
