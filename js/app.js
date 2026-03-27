@@ -538,9 +538,13 @@ Chef / Pill Mill`,
     `Cooks at the Shack Saloon
 Sells opioids after hours at the saloon, running a pill mill.
 Was taken in by the Mayor after he found you orphaned by the No Man’s Corral War. He has you run his errands for him nowadays, but he’s still very respectful of you and your time.
-
+Ambitious called you to his office today, asking if you could begin transferring some supplies over to the green space, Little Groveland, under the cover of darkness. You agree and he instructs you that the supplies will be in the supply shed behind the office. 
+When you make it inside you see your adoptive brother, Willy visibly shaken.
 You move the bags to your Hema ready to mosey on out of town once the CarryVan arrives, but you don’t wanna miss the 6th annual Saloon speech Ambitious is going to give. Surely, he won’t mind if you are still in town a little longer.`,
-    null,
+    `Your goal: 
+    Ticket Out of Here: Get a ticket out of town, you should probably still finish getting the supplies hidden in Groveland tomorrow. That was kinda Ambitious’ last wish to you.
+
+Secure the Deed: You can’t remember what Ambitious did with it, but you figure he doesn’t want it falling into the wrong hands. `,
     `A Little Off the Top: Ambitious isn’t here, you can take a little taste. An attempt to send you unconscious fails. 3 uses.
 
 Flannelmouthing: If another player plays an ability on you that forces you to reveal your secret or clue, you instead talk about your day. Their effort has no effect-give nothing up and their attempt fails. They still have to check off their use of ability. 3 uses.
@@ -572,18 +576,32 @@ You’ve revealed more than you intended: Another player has revealed more than 
   businessman: createCharacterDetails(
     "Extra",
     "Ted Bannett",
-    null,
-    null,
-    null,
-    null
+    "Owner of Mattress Firm",
+    "You are the eternal owner of Mattress Firm. You used to run one on Earth, but the effects of aging began to catch up with you. You then turned to the dark arts and summoned a vampyre. While he was very confused about being summoned into a Mattress Firm, you were able to get him to turn you into an eternal servant of the night. You were able to make it onto the OPUS ships before they left Earth and smuggled on several mattresses to continue your service in the new world. Now, you run a Mattress Firm in the Frozen Cap, and travel around to find who keeps stealing mattresses from your business.",
+    `Your Goal: Call Out: Expose Lake’s illegal usage of B.G’s of different towns to turn mattresses into blueberries wherever she travels.    
+    
+    Secret: The deed to Lil’ Groveland is hidden somewhere in the sands.
+    
+    Clue: Ambitious took you in when no one else would. `, 
+    
+    `Copy: Pull 3 from pool of available abilities.`, 
   ),
   traveling_performer: createCharacterDetails(
     "Extra",
     "Blues McGee",
-    null,
-    null,
-    null,
-    null
+    "Wanderer from Highhome",
+    "You were hired by Ambitious to perform at his saloon’s anniversary dinner. However, as you traveled to your destination from Highhome, you were kidnapped by the OBO. You’ve finally escaped their capture and made it to the Shack-a-loon but it looks like you were replaced by one of the OBO members. What the hell, man.",
+    `Your Goal: The Replacement: Expose the man who kidnapped and replaced you.
+   
+    Secret: You can’t remember his full name but you remember you were replaced by a man with the initials BBB.
+    
+    Clue: You are Hornvalley’s actual performance partner. `,
+    
+  `I Had Worse In The War: Use this after another player has defeated you in combat. The wound has no effect: you are not injured and can now take an action. Does not work against poison. 3 uses.
+
+Have some copper for exchange: Another has to reveal their clue to you. $$$50.
+
+Intimidate: Speak in an intimidating manner to another character. They must then reveal their secret to you. 2 uses.`,
   ),
   retired_cowboy: createCharacterDetails(
     "Melina",
@@ -604,10 +622,14 @@ Hold Up: While speaking to another player, they may show you all of their item c
   farmer: createCharacterDetails(
     "Extra",
     "Lake Strawberry",
-    null,
-    null,
-    null,
-    null
+    "Blueberry Farmer",
+    "",
+    `Your goal: Illegal Conduct: Expose Ted’s illegal usage of B.G’s to turn blueberries into mattresses.`,
+    `Secret: You have been using B.G’s to make mattresses into blueberries.
+    
+    Clue: Ted is your business rival. `,
+    
+    ` Copy: Pull 3 from pool of available abilities.`,
   ),
   journalist: createCharacterDetails(
     "CJ",
@@ -639,9 +661,13 @@ Keep the Change: Another player has revealed more than they intended and must re
 You were able to narrowly avoid the humans’ No Man’s Corral war and now work with Julius’ CarryVan in exchange for Julius’ life.
 In the day to day, you work as a snake-oil seller to mark targets.`,
     `Your goal:
-Ambitious promised you a piece of Groveland in exchange for his life, well he’s dead, now you have to win that land the ol’ fashion way: an auction.
+Thievery
+Ambitious promised you a piece of Groveland in exchange for his life, well he’s dead, now you have to win that land the ol’ fashion way: a theft.
 
+Hidden Truths:
 Tonight you feel your husband is hiding something from you, find out what it is.
+
+Where’s my Wallet?
 As soon as you can you will want to skip out of town, but it seems you’ve misplaced your wallet, surely someone knows where it is, find it, quickly!
 
 Secret: Don’t let anyone find out about your vampyric nature. If it comes out, there is no telling what this town is capable of.
@@ -671,11 +697,17 @@ You have lived for centuries with Lucille and since then you two have been insep
 Day to day works as a snake-oil seller to mark targets.
 May have a bit of a gambling addiction.`,
     `Your goals:
-Ambitious is dead, you don’t know by what means, but it must mean Maddie held up her end of the bargain. Now it’s up to you and Lucille to win the land in the auction.
-_____________
-Your wife made it clear tonight she wants to move on to the next town as soon as possible, however, you may have blown your load tonight in Faro. Don’t allow the misses to catch on but get back your $$$2000 some way, somehow before she realizes it’s missing.
+The Deed: 
+Ambitious is dead, you don’t know by what means, but now is time for you and Lucille to find the Lil’ Groveland deed.
 
-Secret: Don’t let anyone find out about your vampyric nature. If it comes out, there is no telling what this town is capable of.
+In the doghouse:
+Your wife made it clear she wants to move on to the next town as soon as possible, however, you may have blown your load tonight in Faro. Don’t allow the missus to catch on but get back your $$$2000 some way, somehow before she realizes it’s missing. Maybe she’ll be extra excited if you had a lil’ extra. 
+
+
+Secret: You’re a vampyre. 
+You run a meat locker out of the CarryVan. 
+You have business with Julius tonight.
+You lost $$$2000 in Faro.
 
 Clue: Ambitious promised you a chunk of Groveland.`,
     `Pickpocket:
@@ -724,9 +756,7 @@ Still cannot use abilities until cured.`
   cowboy: createCharacterDetails(
     "Matt",
     "Cyvil Hitchcock",
-    `Cowboy
-Clothing - Cowboy hat, long-sleeved cotton or wool shirt, high-waisted denim or canvas trousers with suspenders.
-Cowboy attire`,
+    `Cowboy`,
     `“Butcher of the West”
 Many believe this name to have originated from his meticulous and inhumane methods on the Faro table, however, he earned that name in his service during the No Man’s Corral War’s inciting incident with the Deadwoods. Favorite set of cards: a black pair of aces and eights.
 
@@ -772,10 +802,18 @@ Not so fast!: An ability played by another player has no effect! However, it sti
   archaeologist: createCharacterDetails(
     "Extra",
     "Heinz Heinrich",
-    null,
-    null,
-    null,
-    null
+    "Archaeologist",
+    "You travel around looking for lost OPUS technology and study the various changes the planet has undergone. In your studies you found the existence of vampyres who hid aboard an OPUS vessel back in the far past. Your discovery has brought you to Univ Valley which seems to already be undergoing a crisis.",
+    `Expose: Find those connected to Ambitious and Julius’ meat locker.
+    
+    Secret: In your studies of the Sudden Shower, you found that some occupants of the OPUS fleet were over thousands of years old.
+    
+    Clue:You know Ambitious was running a human meat locker with Julius out of the CarryVan service.`,
+    `Intimidate: Speak in an intimidating manner to another character. They have to reveal a secret to you. $$$50.
+
+Sharpshooting: When you shoot someone, you hit if you win or tie at rock-paper-scissors, rather than just when you win as normal. $$$50.
+
+I’ve bared my heart-you bare yours: Reveal your secret to another player - they must reveal their secret to you. $$$50.`
   ),
   caravaner: createCharacterDetails(
     "Extra",
@@ -806,9 +844,17 @@ Thorough appraisal: After speaking to another player, they must show you all the
     "Extra",
     "Alex Resnick",
     "Drunkard",
-    null,
-    `Your goal: Figure out what the hell is going on`,
-    null
+    "From Highhome, you’re always looking for a good place to drink. On your travels, you shared a drink with a Reed the Star who shared the awful crimes against humanity they fostered in their lab. It haunts you and you wonder if you'll ever run into them again.",
+    `Your goal: Follow the Thread: Find the identity of Reed the Star.
+    
+    Secret: You found records of Reed the Star going to Trade Town. 
+    
+    Clue: In your research of the No Man’s Corral War you found experimentation records of someone attempting to use B.G’s to turn rather poisonous materials bioavailable. It didn’t work.`,
+    `Good Judge of Character: Another has to reveal their secret to you. $$$50
+
+Flannelmouthing: If another player plays an ability on you that forces you to reveal your secret or clue, you instead talk about your day. Their effort has no effect-give nothing up and their attempt fails. They still have to check off their use of ability. 3 uses.
+
+Not so fast!: An ability played by another player has no effect! However, it still costs a use and they cannot use that ability on you again. Cannot be used to cancel out another Not so fast!. May be used to cancel a pickpocket. $$$100.`,
   ),
   drunkard: createCharacterDetails(
     "Jen",
@@ -868,9 +914,7 @@ Intimidate: Speak in an intimidating manner to another character. They must then
   farrier: createCharacterDetails(
     "Extra",
     "Shining Jessie Games",
-    `Farrier / Old Blood Order member
-Clothes:
-Bandana, waistcoat, high waisted trousers, boots.`,
+    `Farrier / Old Blood Order member`,
     `You were once a brave prison guard for the Plainsmen, but now serve the Old Blood Order faith.
 You are a calm , collected and stern individual, reasons why your prophet Mabee II believes you are perfect for this infiltration mission. You operate under the guise as a ferrier, a specialist in equine hoof care. But your true mission goes: “Find the deed, get out of town.” Now get to work, soldier.`,
     `Your goal: You know Ambitious hid the deed in the saloon somewhere. For the good of the world, it may prove best to find and secure the document before it is pawned off to less than worthy hands.
@@ -886,28 +930,65 @@ Pickpocket:
 Your many years alive have given you much time to learn the trick of swindling. Tell the Bartender which item you want to take from another player. If that player does not have what you seek, the Bartender will take something else at random. $$$50.`
   ),
   teacher: createCharacterDetails(
-    "Extra",
+    "Xavier",
     "Spruce Louis",
-    null,
-    null,
-    null,
-    null
+    "Traveling SchoolTeacher",
+    "You worked as a schoolteacher in Highhome but when the OBO came into town, you joined their cause. Now, you are a part of the backup squadron if things go wrong in Univ Valley. However, you were robbed and knocked out by Kalamity Bane at your outpost, once you awoke you realized the performer you guys were able to capture and replace with Brian has escaped his cage and made his way into town. That seems to be a problem, recover the asset and assist in getting the deed to Groveland. And get that Kalamity girl while you’re at it, her disrespect will not stand.",
+    `Your goal: Free Land:
+Receive the deed to Groveland. If you have it, the OPUS government will have to recognize it as your territory.
+
+Your end of the bargain:
+Secure Dr. Madie Stark, so she may fulfill your end of the bargain…
+
+    
+    Secret: Highhome is now Old Blood Order territory.
+    
+    Clue:You were robbed on your way to town by Kalamity Bane.`,
+    `Copper for your time: Another has to reveal their clue to you. $$$50
+
+Sharpshooting: When you shoot someone, you hit if you win or tie at rock-paper-scissors, rather than just when you win as normal. $$$50.
+
+Pickpocket:
+Your many years alive have given you much time to learn the trick of swindling. Tell the Bartender which item you want to take from another player. If that player does not have what you seek, the Bartender will take something else at random. $$$50.`
   ),
   trade_town_surgeon: createCharacterDetails(
     "Extra",
     "Ooo Oasis",
-    null,
-    null,
-    null,
-    null
+    "Traveling Surgeon",
+    "You worked as a surgeon in Trade Town. Your services included blood transfusions, brain surgery, facial reconstruction surgery, and many more services.However, recently you have converted to work for the Old Blood Order. You were told to wait outside of town if something happened. You’ve been given the signal, it’s go time. Secure the deed, and assist as many OBO members as you can.",
+    `Your goal: Free Land:
+Receive the deed to Groveland. If you have it, the OPUS government will have to recognize it as your territory.
+
+Your end of the bargain:
+Secure Dr. Madie Stark, so she may fulfill your end of the bargain…
+
+    
+    Secret: You gave Reed the Star a facial reconstruction surgery.
+    
+    Clue: You were a facial reconstruction surgeon from Trade Town before joining the church.`,
+    `Copy: Pull 3 from pool of available abilities.`,
   ),
   sister: createCharacterDetails(
     "Extra",
     "Meryl Stryfeson",
-    null,
-    null,
-    null,
-    null
+    "Investigative Journalist",
+    `Sister of Milly, who was set to arrive in town March 26 but her wagon was delayed by bandits. Luckily, the CarryVan was plowing through the sands and she was able to make it aboard, albeit illegally. You ran into a spot of trouble when the conductor found you and asked for your ticket. You ran into trouble on the CarryVan and avoided arrest until it reached Univ Valley. They were trying to hold you in a holding cell to be processed for meat!
+Now you can catch up with your sister and Spikie in figuring out the goings-ons of the town and expose the various ne’er-do-wells this very night for all of their connections to the underworld.`,
+    `Your goal:
+    Where is She?
+Find out what happened to the CarryVan and your sister.
+Little Lies:
+Expose the truths behind Ambitious ambitions. 
+
+    
+    Secret: You barely escaped being prepped as meat while on the CarryVan for some creatures that are waiting in Univ Valley.
+    
+    Clue: Ambitious had his hands in human and drug trafficking, bounty work, money laundering, and had taken in a couple of orphans. `,
+    `Good Judge of Character: Another has to reveal their secret to you. $$$50
+
+Flannelmouthing: If another player plays an ability on you that forces you to reveal your secret or clue, you instead talk about your day. Their effort has no effect-give nothing up and their attempt fails. They still have to check off their use of ability. 3 uses.
+
+Not so fast!: An ability played by another player has no effect! However, it still costs a use and they cannot use that ability on you again. Cannot be used to cancel out another Not so fast!. May be used to cancel a pickpocket. $$$100.`,
   )
 };
 
